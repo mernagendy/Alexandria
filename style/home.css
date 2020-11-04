@@ -1,0 +1,237 @@
+.wrapper {
+	width: 100%;
+	height: 100%;
+	align-content: center;
+	align-items: center;
+	zoom: 100%;
+}
+
+.mediaViewInfo {
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Home;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+#Home {
+	position: absolute;
+	width: 414px;
+	height: 896px;
+	background-color: rgba(255, 255, 255, 1);
+	overflow: hidden;
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	align-items: center;
+	align-content: center;
+	display: table-cell;
+}
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#BackgroundColors {
+	position: absolute;
+	width: 450px;
+	height: 1111px;
+	left: -18px;
+	top: -215px;
+	overflow: visible;
+}
+#Background {
+	fill: rgba(59, 59, 59, 1);
+}
+.Background {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 896px;
+	left: 18px;
+	top: 215px;
+}
+#Group_2 {
+	position: absolute;
+	width: 450px;
+	height: 400px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Ellipse_1 {
+	fill: rgba(31, 188, 210, 1);
+}
+.Ellipse_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.749));
+	position: absolute;
+	overflow: visible;
+	width: 468px;
+	height: 418px;
+	left: 0px;
+	top: 0px;
+}
+#Welcome {
+	left: 138px;
+	top: 281px;
+	position: absolute;
+	overflow: visible;
+	width: 175px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255, 255, 255, 1);
+	text-transform: capitalize;
+}
+#Footer {
+	position: absolute;
+	width: 414px;
+	height: 65px;
+	left: 0px;
+	top: 831px;
+	overflow: visible;
+}
+#FooterBackground {
+	fill: rgba(31, 31, 31, 1);
+}
+.FooterBackground {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 65px;
+	left: 0px;
+	top: 0px;
+}
+#ID2020_Merna_Gendy_All_rights_ {
+	left: 0px;
+	top: 32px;
+	position: absolute;
+	overflow: visible;
+	width: 415px;
+	height: 17px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 1);
+}
+#image {
+	position: absolute;
+	width: 414px;
+	height: 326px;
+	left: 0px;
+	top: 200px;
+	overflow: visible;
+}
+#alexx {
+	position: absolute;
+	width: 414px;
+	height: 326px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#A_Guide_To_Alexandria {
+	filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 1));
+	left: 92px;
+	top: 103px;
+	position: absolute;
+	overflow: visible;
+	width: 232px;
+	height: 120px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(255, 255, 255, 1);
+}
+#AboutMeButton {
+	position: absolute;
+	width: 307px;
+	height: 80px;
+	left: 54px;
+	top: 671px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-in;
+	--web-action-type: page;
+	--web-action-target: About_Me.html;
+	cursor: pointer;
+}
+#Guide {
+	fill: rgba(31, 188, 210, 1);
+}
+.Guide {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.749));
+	position: absolute;
+	overflow: visible;
+	width: 325px;
+	height: 98px;
+	left: 0px;
+	top: 0px;
+}
+#About_Me {
+	left: 99px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 111px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255, 255, 255, 1);
+}
+#GuideButton {
+	position: absolute;
+	width: 307px;
+	height: 80px;
+	left: 54px;
+	top: 571px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-in;
+	--web-action-type: page;
+	--web-action-target: Alexandria_Guide.html;
+	cursor: pointer;
+}
+#Guide_x {
+	fill: rgba(31, 188, 210, 1);
+}
+.Guide_x {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.749));
+	position: absolute;
+	overflow: visible;
+	width: 325px;
+	height: 98px;
+	left: 0px;
+	top: 0px;
+}
+#Guid {
+	left: 121px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255, 255, 255, 1);
+}

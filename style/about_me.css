@@ -1,0 +1,172 @@
+.wrapper {
+	width: 100%;
+	height: 100%;
+	align-content: center;
+	align-items: center;
+	zoom: 100%;
+}
+
+.mediaViewInfo {
+	--web-view-name: About Me;
+	--web-view-id: About_Me;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: About_Me;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#About_Me {
+	position: absolute;
+	width: 414px;
+	height: 896px;
+	background-color: rgba(255, 255, 255, 1);
+	overflow: hidden;
+	--web-view-name: About Me;
+	--web-view-id: About_Me;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	align-items: center;
+	align-content: center;
+	display: table-cell;
+}
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#Group_1 {
+	position: absolute;
+	width: 414px;
+	height: 896px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#BackgroundColors {
+	position: absolute;
+	width: 414px;
+	height: 896px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Background2 {
+	fill: rgba(31, 188, 210, 1);
+}
+.Background2 {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 174px;
+	left: 0px;
+	top: 0px;
+}
+#Background {
+	fill: rgba(59, 59, 59, 1);
+}
+.Background {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 722px;
+	left: 0px;
+	top: 174px;
+}
+#Footer {
+	position: absolute;
+	width: 414px;
+	height: 65px;
+	left: 0px;
+	top: 831px;
+	overflow: visible;
+}
+#FooterBackground {
+	fill: rgba(31, 31, 31, 1);
+}
+.FooterBackground {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 65px;
+	left: 0px;
+	top: 0px;
+}
+#ID2020_Merna_Gendy_All_rights_ {
+	left: 0px;
+	top: 32px;
+	position: absolute;
+	overflow: visible;
+	width: 415px;
+	height: 17px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 1);
+}
+#About-Me-Pages {
+	filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.91));
+	position: absolute;
+	width: 414px;
+	height: 249px;
+	left: 0px;
+	top: 50px;
+	overflow: visible;
+}
+#back {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	left: 12px;
+	top: 9px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Home.html;
+	cursor: pointer;
+}
+#BodyDetails {
+	position: absolute;
+	width: 380px;
+	height: 315px;
+	left: 17px;
+	top: 328px;
+	overflow: visible;
+}
+#TextArea {
+	fill: rgba(31, 188, 210, 1);
+}
+.TextArea {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.749));
+	position: absolute;
+	overflow: visible;
+	width: 398px;
+	height: 333px;
+	left: 0px;
+	top: 0px;
+}
+#My_name_is_Merna_Gendy_am_orig {
+	left: 6px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 370px;
+	height: 285px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 1);
+	text-transform: capitalize;
+}

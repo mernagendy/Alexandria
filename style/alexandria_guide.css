@@ -1,0 +1,197 @@
+.wrapper {
+	width: 100%;
+	height: 100%;
+	align-content: center;
+	align-items: center;
+	zoom: 100%;
+}
+
+.mediaViewInfo {
+	--web-view-name: Alexandria Guide;
+	--web-view-id: Alexandria_Guide;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Alexandria_Guide;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Alexandria_Guide {
+	position: absolute;
+	width: 414px;
+	height: 1113px;
+	background-color: rgba(255, 255, 255, 1);
+	overflow: hidden;
+	--web-view-name: Alexandria Guide;
+	--web-view-id: Alexandria_Guide;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	align-items: center;
+	align-content: center;
+	display: table-cell;
+}
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#BackgroundColors {
+	position: absolute;
+	width: 414px;
+	height: 1113px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Background2 {
+	fill: rgba(31, 188, 210, 1);
+}
+.Background2 {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 175px;
+	left: 0px;
+	top: 0px;
+}
+#Background {
+	fill: rgba(59, 59, 59, 1);
+}
+.Background {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 939px;
+	left: 0px;
+	top: 174px;
+}
+#BodyDetails {
+	position: absolute;
+	width: 369.5px;
+	height: 704px;
+	left: 22.5px;
+	top: 329px;
+	overflow: visible;
+}
+#TextArea {
+	fill: rgba(31, 188, 210, 1);
+}
+.TextArea {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.749));
+	position: absolute;
+	overflow: visible;
+	width: 386.5px;
+	height: 722px;
+	left: 1px;
+	top: 0px;
+}
+#The_best_beaches_in_Egypt_are_ {
+	left: 24.5px;
+	top: 96px;
+	position: absolute;
+	overflow: visible;
+	width: 322px;
+	height: 608px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 1);
+	text-transform: capitalize;
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(255, 255, 255, 1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 369px;
+	height: 2px;
+	left: 0px;
+	top: 83px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#The_Best_Places_and_Entertainm {
+	left: 0.5px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 370px;
+	height: 60px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 1);
+	text-transform: capitalize;
+}
+#pic_1 {
+	filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.91));
+	position: absolute;
+	width: 414px;
+	height: 249px;
+	left: 0px;
+	top: 50px;
+	overflow: visible;
+}
+#back {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	left: 12px;
+	top: 9px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Home.html;
+	cursor: pointer;
+}
+#Footer {
+	position: absolute;
+	width: 414px;
+	height: 65px;
+	left: 0px;
+	top: 1048px;
+	overflow: visible;
+}
+#FooterBackground {
+	fill: rgba(31, 31, 31, 1);
+}
+.FooterBackground {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 65px;
+	left: 0px;
+	top: 0px;
+}
+#ID2020_Merna_Gendy_All_rights_ {
+	left: 0px;
+	top: 32px;
+	position: absolute;
+	overflow: visible;
+	width: 415px;
+	height: 17px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 1);
+}
